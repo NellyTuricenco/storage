@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20pt;
+  font-weight: normal;
+  background: lightpink;
+}
+
+.main {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.reset {
+  width: 70px;
+  height: 30px;
+  font-size: 10 px;
+  font-style: italic;
+  background-color: blueviolet;
+}
