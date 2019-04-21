@@ -1,0 +1,30 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "Storage_Lesson22_Homework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "lint:fix": "eslint '*.js' --fix",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NellyTuricenco/storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NellyTuricenco/storage/issues"
+  },
+  "homepage": "https://github.com/NellyTuricenco/storage#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "jest": "^24.7.1"
+  }
+}
